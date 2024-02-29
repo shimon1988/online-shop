@@ -1,0 +1,110 @@
+.App {
+  display: flex;
+}
+
+.sidenav {
+  width: 25%;
+  padding: 20px;
+  background-color: #f1f1f1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  overflow-y: auto;
+  z-index: 1;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 75%;
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto; /* Add this line to center the content */
+}
+
+
+.product {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+}
+
+.cart-item img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.cart-item-details {
+  flex: 1;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+/* favorits sidenav section */
+/* FavoritesSidenav.css */
+
+.favorites-sidenav {
+  width: 25%;
+  padding: 20px;
+  background-color: #f1f1f1;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  overflow-y: auto;
+  z-index: 1;
+}
+
+.favorites-sidenav h2 {
+  margin-bottom: 20px;
+}
+
+.favorites-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.favorites-item img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.favorites-item-details h3 {
+  margin: 0;
+}
+
+.favorites-item-details button {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}
+.AddToFavorits{
+  margin: 5px;
+}
